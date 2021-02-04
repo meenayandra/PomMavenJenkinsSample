@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test  name="Test">
+  <classes>
+  <class name= "com.edureka.frameworkPackage.BrowserFactory"/>
+  <class name= "com.edureka.uiPackage.LoginPage"/>
+  <class name= "com.edureka.uiPackage.FlightFinderPage"/>
+   <class name= "com.edureka.uiPackage.FlightConfirmationPage"/>
+    <class name= "com.edureka.uiPackage.SelectFlightPage"/>
+  <class name=  "com.edureka.testPackage.HelperClass"/>
+   <class name=  "com.edureka.testPackage.TestCaseClass"/>
+  
+    
+   </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
