@@ -10,9 +10,8 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
- 
+
 import com.edureka.frameworkPackage.BrowserFactory;
-//import com.edureka.frameworkPackage;
  
 public class HelperClass {
  
@@ -35,7 +34,7 @@ System.out.println("in @BeforeClass");
 @BeforeMethod
 public void beforeMethodClass(){
 System.out.println("in @BeforeMethod");
-HelperClass.driver = BrowserFactory.getDriver("chrome");
+HelperClass.driver = BrowserFactory.getDriver("firefox");
  
 }
  

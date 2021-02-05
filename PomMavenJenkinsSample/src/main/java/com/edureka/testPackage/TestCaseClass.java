@@ -3,13 +3,14 @@ package com.edureka.testPackage;
 import org.testng.annotations.Test;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
- import com.edureka.frameworkPackage.BrowserFactory;
+
 import com.edureka.uiPackage.FlightConfirmationPage;
 import com.edureka.uiPackage.FlightFinderPage;
 import com.edureka.uiPackage.LoginPage;
 import com.edureka.uiPackage.SelectFlightPage;
 
 import pommavenjenkins.BookFlightPage;
+import pommavenjenkins.BrowserFactory1;
 import pommavenjenkins.CaptureScreenShot;
  
 public class TestCaseClass extends HelperClass {
